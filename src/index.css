@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+.post-card {
+  box-shadow: var(--card-shadow);
+}
