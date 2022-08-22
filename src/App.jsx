@@ -1,9 +1,13 @@
-import { useState } from 'react'
-import './App.css'
+import React from 'react'
+import styles from './style'
+import Navbar from './components/Navbar'
 
 function App() {
   return (
-    <div className="App">
+    <div className='bg-primary w-full overflow-hidden'>
+        <div className='flex flex-row'>
+          <Navbar />
+        </div>
     </div>
   )
 }
