@@ -1,6 +1,8 @@
 const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
+  paragraph: "font-normal darkText text-[16px] leading-[24px]",
+
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
   flexEnd: "flex justify-end items-end",
