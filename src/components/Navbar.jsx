@@ -29,7 +29,7 @@ const Navbar = () => {
           onClick={() => setToggle((prevState) => !prevState)}
         />
 
-        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-buttonColor absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl justify-center`}>
+        <div className={`${toggle ? 'flex' : 'hidden'} p-6 bg-lightGray absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl justify-center`}>
           <ul className={`list-none ${styles.flexCenter}  flex-col`}>
             {navLinks.map((link, index) => (
               <li key={link.id}
